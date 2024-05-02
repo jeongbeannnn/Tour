@@ -1,0 +1,186 @@
+:root{
+  --bg-color: #F0F3F4;
+  --font-color:#22577A;
+  --white:#FFFFFF;
+  --black:#000000;
+  --Beige_1:#FEFAE0;
+}
+
+
+/* Announcement */
+.Announcement{
+  /* width: 576px;
+  height: 14316.87px; */
+  width: 576px;
+  height: 1712px;
+  padding: 64px 48px 64px 48px;
+  gap: 48px;
+  opacity: 0px;
+  margin-left: 10px;
+  background-color: var(--bg-color);
+
+}
+.AnnouncementUpper{
+
+  width: 381px;
+  height: 62px;
+  background: #22577A;
+  border-radius: 20px;
+  padding: 12px 24px 12px 24px;
+  margin: 50px auto;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+
+  font-size: 32px;
+  font-weight: 900;
+  /* line-height: 38.19px; */
+  text-align: center;
+  color: var(--white); 
+
+}
+.AnnouncementUpperText{
+  margin: 0;
+  letter-spacing: -2px;
+  padding-top: 2%;
+
+}
+
+/* 유의 사항 및 주요 정보 안내 */
+
+/* 이용안내 */
+#AnnouncementLower{
+  
+  padding: 0px 24px 0px 24px;
+  width: 480px;
+  height:  968px;
+  gap: 24px;
+  opacity: 0px;
+
+}
+.AnnouncementLowerContent1{
+  
+  width: 480px;
+  height: 217px;
+  gap: 10px;
+  opacity: 0px;
+
+}
+.AnnouncementLowerContentUpper{
+  width: 480px;
+  height: 57px;
+  padding: 12px 0px 0px 0px;
+  gap: 12px;
+  opacity: 0px;
+  
+}
+.AnnouncementLowerContentUpperText{
+  width: 97px;
+  height: 33px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Pretendard;
+  font-size: 28px;
+  font-weight: 950;
+  line-height: 33.41px;
+  text-align: center;
+  color: var(--font-color);
+  padding: 12px;
+}
+ul{
+  width: 480px;
+  height: 150px;
+  gap: 10px;
+  opacity: 0px;
+  list-style-type: none;
+  padding: 0 12px 0 12px;
+  transform: translateY(-6%);
+}
+li{
+  font-family: pretendard;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.87px;
+  text-align: left;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 15px;
+  letter-spacing: -1.5px;
+}
+li::before{
+  content: "●";
+  color: var(--black);
+  font-size: 5px;
+  position:absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+
+/* 성인 소아 규정*/
+.AnnouncementLowerContent2{
+  width: 480px;
+  height: 159px;
+  gap: 10px;
+  opacity: 0px;
+  /* transform: translateY(30%); */
+  margin-top: 40px;
+}
+.AnnouncementLowerContentUpper{
+  width: 480px;
+  height: 57x;
+  padding: 12px 0px 0px 0px;
+  gap: 12px;
+  opacity: 0px;
+}
+
+
+
+/* 참고사항 */
+.AnnouncementLowerContent3{
+  width: 480px;
+  height: 299px;
+  gap: 10px;
+  opacity: 0px;
+  margin-top: 40px;
+  /* trasform:translateY:(30%) ; */
+}
+.AnnouncementLowerContentUpper3{
+  width: 97px;
+  height: 33px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Pretendard;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 33.41px;
+  text-align: center;
+}
+
+/* 취소및 환불 규정 */
+.AnnouncementLowerContent4{
+  width: 480px;
+  height: 173px;
+  gap: 10px;
+  opacity: 0px;
+  /* transform: translateY(85%); */
+  margin-top: 40px;
+}
+
+/* BottomLogo */
+.BottomLogo{
+  
+  width: 526px;
+  height: 458px;
+  padding: 10px 0px 0px 0px;  
+  gap: 10px;
+  opacity: 0px;
+  margin-top: 60px; 
+  align-content: center;
+  margin-left: auto;
+}
+/* index-content */
+.index-content{
+  transform: translateY(20px);
+}

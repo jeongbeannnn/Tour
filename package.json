@@ -4,11 +4,17 @@
   "devDependencies": {
     "bun-types": "latest"
   },
+  "scripts": {
+    "start": "bun src/index.ts",
+    "dev": "bun --hot src/index.ts",
+    "build": "bun build src/index.ts"
+  },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "type": "module",
   "dependencies": {
+    "@types/bun": "^1.1.1",
     "fs": "^0.0.1-security"
   }
 }
