@@ -11,11 +11,13 @@
  margin: 0;
  letter-spacing: -2px;
  padding-top: 25px;
+ font-family: Elice DX Neolli;
 }
 .subtitle{
   text-align: center;
   font-size: 20px;
   margin-bottom: 55px;
+  font-family: Nanum Pen Script OTF;
 }
 
 .detail1{
