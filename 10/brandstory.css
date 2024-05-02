@@ -28,7 +28,8 @@
  
 }
 .CoconutTarvelStory{
-  border: 5px solid rgba(96, 108, 56, 1)
+  border: 5px solid rgba(96, 108, 56, 1);
+  font-family: Jalnan;
 }
 .BrandStoryLower{
   width: 576px;
@@ -98,7 +99,7 @@
 .BrandStoryContentText{
   width: 576px;
   height: 58px;
-  font-family: Sandoll GyeokdongG2;
+  font-family: Elice DX Neolli;
   font-size: 20px;
   font-weight: 400;
   line-height: 25px;
@@ -179,7 +180,7 @@
 
   
 }.CoconutT{
-  font-family: Sandoll GyeokdongG2;
+  font-family: Elice DX Neolli;
   font-size: 24px;
   ;
   font-weight: 700;
@@ -189,7 +190,7 @@
 
 }
 .TripPer{
-  font-family: Sandoll GyeokdongG2;
+  font-family: Elice DX Neolli;
   font-size: 24px;
   font-weight: 600;
   line-height: 24px;
@@ -198,7 +199,7 @@
 
 }
 .certifyT{
-  font-family: Sandoll GyeokdongG2;
+  font-family: Elice DX Neolli;
   font-size: 24px;
   font-weight: 600;
   line-height: 24px;
@@ -209,7 +210,7 @@
 .BrandStoryLowerContentLowerText{
   width: 576px;
   height: 58px;
-  font-family: Sandoll GyeokdongG2;
+  font-family: Elice DX Neolli;
   font-size: 24px;
   line-height: 24px;
   text-align: center;
