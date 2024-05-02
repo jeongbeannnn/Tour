@@ -11,7 +11,7 @@ opacity: 0px;
     border-top: 3px dashed #68B8ED;
 }
 .upper1{
-    font-family: Sandoll GyeokdongG2;
+    font-family: Elice DX Neolli;
     font-size: 48px;
     font-weight: 350;
     line-height: 48px;
@@ -24,7 +24,7 @@ opacity: 0px;
     color: #57CC99;
 }
 .upper2{
-    font-family: Sandoll GyeokdongG2;
+    font-family: Elice DX Neolli;
     font-size: 48px;
     font-weight: 400;
     line-height: 48px;
@@ -32,7 +32,7 @@ opacity: 0px;
     color: #68B8ED;
 }
 .summarymid{
-font-family: Sandoll GyeokdongG2;
+font-family: Elice DX Neolli;
 font-size: 36px;
 line-height: 50px;
 text-align: center;
@@ -42,7 +42,7 @@ color: #68B8ED;
     color:#57CC99;
 }
 .pricetitle{
-font-family: Sandoll GyeokdongG2;
+font-family: Elice DX Neolli;
 font-size: 32px;
 font-weight: 400px;
 line-height: 38.4px;
@@ -61,7 +61,7 @@ color: #68B8ED;
 }
 
 .pricemain{
-font-family: Sandoll GyeokdongG2;
+font-family: Elice DX Neolli;
 font-size: 32px;
 font-weight: 400;
 line-height: 38.4px;
@@ -73,7 +73,7 @@ color: black;
     background-color: #F5F5F5;
     width:576px;
     height: 302px;
-    font-family: Sandoll GyeokdongG2;
+    font-family: Elice DX Neolli;
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
@@ -89,7 +89,7 @@ color: black;
     height: 302px;
     border-left: 0px;
     border-top: 20px;
-    font-family: Sandoll GyeokdongG2;
+    font-family:Elice DX Neolli;
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
@@ -115,7 +115,7 @@ color: black;
     padding: 0;
 }
 .arrow::before{
-    content: '\2192'; /* Unicode for right arrow */
+    content: '\2192'; 
 }
 .kakaotalk{
     border-collapse: collapse;
