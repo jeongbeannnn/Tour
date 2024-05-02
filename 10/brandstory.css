@@ -1,0 +1,314 @@
+:root{
+  --beige:rgba(254, 250, 224, 1);
+  --font-green:rgba(87, 204, 153, 1);
+  --font-deepgreen:rgba(96, 108, 56, 1);
+}
+/* Content1 */
+.BrandStory{
+  width: 576px;
+  height: 1526px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: var(--beige);
+}
+.BrandStoryUpper{
+
+  width: 576px;
+  padding: 64px 0px 64px 0px;
+  gap: 12px;
+  opacity: 0px;
+
+  font-family: Sandoll GyeokdongGL2;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  color: var(--font-green);
+  text-shadow: -1px 0px 5px var(--font-deepgreen), 0px 1px 5px var(--font-deepgreen), 1px 0px 5px var(--font-deepgreen), 0px -1px 5px var(--font-deepgreen);
+ 
+}
+.CoconutTarvelStory{
+  border: 5px solid rgba(96, 108, 56, 1)
+}
+.BrandStoryLower{
+  width: 576px;
+  height: 1366px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
+.BrandStoryLowerContent1{
+  width: 576px;
+  height: 442px;
+  gap: 10px;
+  opacity: 0px;
+
+
+}
+.BrandLowerContentImageWrapper{
+
+  width: 305px;
+  height: 261px;
+  padding: 12px;
+  gap: 10px;
+  opacity: 0px;
+  background-color:  rgba(255, 255, 255, 1);
+  box-shadow: 12px 12px 4px rgba(0, 0, 0, 0.25); /* 그림자 */
+  position: absolute;
+  left:125px;
+}
+.BrandLowerContentImageWrapper > .BrandStoryLowerContentImage{
+  padding: 12px;
+  gap: 10px;
+  opacity: 0px;
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  width: 257px;
+  height: 213px;
+  gap: 10px;
+  opacity: 0px;
+  text-align: center;
+  background-color : rgba(87, 204, 153, 1);
+  
+}
+.BrandStoryLowerContentImage{
+  text-align: center;
+  position: relative; 
+  top: 40%;
+}
+.BrandStoryLowerContentImage > img{
+  font-family: Pretendard;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: center;
+}
+.BrandStoryContentTextWrapper{
+  width: 576px;
+  height: 171px;
+  padding: 24px 0px 24px 0px;
+  gap: 10px;
+  opacity: 0px;
+  position: absolute;
+  top: 450px;
+  color: rgba(96, 108, 56, 1);
+}
+.BrandStoryContentText{
+  width: 576px;
+  height: 58px;
+  font-family: Sandoll GyeokdongG2;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+
+}
+.bold{
+  font-weight: bold;
+}
+/* Content2  */
+
+.BrandStoryLowerContent2{
+  width: 576px;
+  height: 397px;
+  padding: 12px 0px 12px 0px;
+  gap: 10px;
+  opacity: 0px;
+  background-color: rgba(249, 235, 153, 1);
+}
+.BrandStoryLowerContentUpper{
+  width: 576px;
+  height: 257px;
+  padding: 10px 0px 0px 0px;
+  gap: 48px;
+  opacity: 0px;
+  display: flex;
+  justify-content:center;
+  position: relative;
+
+}
+.BrandStoryLowerContentImageWrapper1{
+  width: 196px;
+  height: 237px;
+
+  padding: 0px 0px 0px 0px;
+  border-collapse: collapse;
+  gap: 10px;
+  opacity: 0px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.BrandStoryLowerContentImageWrapper2{
+  width: 196px;
+  height: 237px;
+  padding: 0px 0px 0px 0px;
+  border-collapse: collapse;
+  gap: 10px;
+  opacity: 0px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.BrandStoryLowerContentImage{
+  width: 172px;
+  height: 213px;
+  padding: 0px 0px 0px 0px;
+  border-collapse: collapse;
+
+  gap: 10px;
+  opacity: 0px;
+  position: relative;
+  background-color: rgba(87, 204, 153, 1);
+  top: 12px;
+  left: 12px;
+  display: flex;
+}
+.BrandStoryLowerContentLower{
+  width: 576px;
+  height: 106px;
+  padding: 24px 0px 24px 0px;
+  gap: 10px;
+  opacity: 0px;
+  position: relative;
+  top: 3%;
+
+  
+}.CoconutT{
+  font-family: Sandoll GyeokdongG2;
+  font-size: 24px;
+  ;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color:#C0772F;
+
+}
+.TripPer{
+  font-family: Sandoll GyeokdongG2;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color:#C0772F;
+
+}
+.certifyT{
+  font-family: Sandoll GyeokdongG2;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #c0772f;
+}
+
+.BrandStoryLowerContentLowerText{
+  width: 576px;
+  height: 58px;
+  font-family: Sandoll GyeokdongG2;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  line-height: 35px;
+  color: rgb(204, 153, 102);
+  
+
+}
+
+
+.BrandStoryLowerContent3{
+  width: 576px;
+  height: 509px;
+  gap: 0px;
+  opacity: 0px;
+}
+.BrandStroyLowerContentUpper{
+  display: flex;
+  justify-content:center;
+  position: relative;
+  justify-content: space-between;
+  padding: 50px;
+
+}
+.BrandStoryLowerContentImageWrapper3{
+  width: 196px;
+  height: 237px;
+  padding: 12px;
+  gap: 10px;
+  opacity: 0px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-size: cover;
+
+
+
+}
+.BrandStoryLowerContentImage1 > img{
+  width: 196px;
+  height: 237px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+.BrandStoryLowerContentText{
+  width: 200px;
+  height: 130px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Elice DX Neolli;
+  font-size: 15px;
+  font-weight: 500;   
+  line-height: 17.6px;
+  text-align: left;
+  color: rgb(204, 153, 102);
+
+  position: relative;
+  top: 75px;
+}
+.LocalPrice{
+  font-family: Elice DX Neolli;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 17.6px;
+  text-align: left;
+
+  color: #C0772F;
+}
+.BrandStoryLowerContentTextWrapper{
+  width: 576px;
+  height: 80px;
+  padding: 48px 0px 48px 0px;
+  gap: 10px;
+  opacity: 0px;
+  text-align: center;
+  background-color: rgba(199, 249, 204, 1);
+}
+.Bbold{
+  font-family: Elice DX Neolli;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35.2px;
+  text-align: center;
+  color: rgba(87, 204, 153, 1);
+
+}
+.blueText{
+  font-family: Elice DX Neolli;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 35.2px;
+  text-align: center;
+  color: rgba(104, 184, 237, 1);
+}
+.limeText{
+  font-family: Elice DX Neolli;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 35.2px;
+  text-align: center;
+  color: rgba(87, 204, 153, 1);
+}
