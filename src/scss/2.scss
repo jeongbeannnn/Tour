@@ -104,6 +104,14 @@ section#summary {
     font-weight: 400;
     line-height: 25px;
     text-align: center;
+
+    table {
+      border-collapse: collapse;
+    }
+
+    th {
+      padding: 0;
+    }
   }
 
   #lower2 {

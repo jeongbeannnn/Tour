@@ -10,16 +10,10 @@ section#announcement {
 
   /* Announcement */
   .Announcement {
-    /* width: 576px;
-    height: 14316.87px; */
-    width: 576px;
-    height: 1712px;
     padding: 64px 48px 64px 48px;
     gap: 48px;
     opacity: 0px;
-    margin-left: 10px;
     background-color: var(--bg-color);
-
   }
 
   .AnnouncementUpper {
@@ -194,6 +188,6 @@ section#announcement {
 
   /* index-content */
   .index-content {
-    transform: translateY(20px);
+    transform: translate(10px, 20px);
   }
 }

@@ -46,6 +46,14 @@ section#commonbenefit {
     gap: 10px;
     opacity: 0px;
     border-collapse: collapse;
+
+    table {
+      border-collapse: collapse;
+    }
+
+    th {
+      padding: 0;
+    }
   }
 
   #talk {
