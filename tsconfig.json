@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
+    "baseUrl": ".",
     "paths": {
-      "bun-types": ["types/bun.d.ts"]
+      "bun-types": ["types/bun.d.ts"],
+      "@/*": ["src/*"],
     },
     "lib": ["ESNext"],
     "module": "esnext",

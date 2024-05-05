@@ -1,4 +1,4 @@
-import db from '@antoniosbarotsis/fake-db';
+import { db } from "@/db";
 
 const html = (body: any) => `
   <!DOCTYPE html>
@@ -8,7 +8,7 @@ const html = (body: any) => `
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Announcement</title>
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/announcement.css">
+    <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" as="style" crossorigin
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css" />
   </head>
@@ -18,18 +18,28 @@ const html = (body: any) => `
 </html>`;
 
 const BASE_PATH = "./src";
+
 Bun.serve({
   port: 3000,
   async fetch(req) {
-    const filePath = BASE_PATH + new URL(req.url).pathname;
-    const file = Bun.file(filePath);
-    if (filePath.includes("html")) {
-      return new Response(html(await file.text()), {
+    const path = (new URL(req.url).pathname).replace(/\%20/g, " ");
+    console.log(path)
+    let filePath = BASE_PATH + path;
+    if (filePath === "./src/") {
+      const body = await Promise.all(
+        Array.from({ length: 11 }).map(async (_, i) => {
+          const file = Bun.file(BASE_PATH + `/pages/${i + 1}/index.html`);
+          return file.text();
+        })
+      );
+
+      return new Response(html(body.join("")), {
         headers: { "content-type": "text/html" },
       });
-    } else {
-      return new Response(file);
     }
+
+    const file = Bun.file(BASE_PATH + path);
+    return new Response(file);
   },
   error() {
     return new Response(null, { status: 404 });

@@ -1,0 +1,119 @@
+@charset "UTF-8";
+section#summary .Summary {
+  width: 576px;
+  height: 1, 309px;
+  gap: 0px;
+  opacity: 0px;
+}
+section#summary .hr-dashed {
+  border: 0px;
+  background-color: white;
+  border-top: 3px dashed #68B8ED;
+}
+section#summary .upper1 {
+  font-family: Elice DX Neolli;
+  font-size: 48px;
+  font-weight: 350;
+  line-height: 48px;
+  text-align: center;
+  color: #68B8ED;
+  margin-top: 66px;
+}
+section#summary #upper11 {
+  color: #57CC99;
+}
+section#summary .upper2 {
+  font-family: Elice DX Neolli;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+  color: #68B8ED;
+}
+section#summary .summarymid {
+  font-family: Elice DX Neolli;
+  font-size: 36px;
+  line-height: 50px;
+  text-align: center;
+  color: #68B8ED;
+}
+section#summary .green {
+  color: #57CC99;
+}
+section#summary .pricetitle {
+  font-family: Elice DX Neolli;
+  font-size: 32px;
+  font-weight: 400px;
+  line-height: 38.4px;
+  text-align: center;
+  margin-top: 25px;
+}
+section#summary #price {
+  color: #68B8ED;
+}
+section#summary #line {
+  margin-left: 227.5px;
+  margin-top: 66px;
+  margin-bottom: 66px;
+}
+section#summary .pricemain {
+  font-family: Elice DX Neolli;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: center;
+  color: black;
+}
+section#summary .summarylower {
+  background-color: #F5F5F5;
+  width: 576px;
+  height: 302px;
+  font-family: Elice DX Neolli;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+section#summary #lower1 {
+  height: 100px;
+}
+section#summary .summarylower2 {
+  background-color: #F5F5F5;
+  width: 576px;
+  height: 302px;
+  border-left: 0px;
+  border-top: 20px;
+  font-family: Elice DX Neolli;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+section#summary #lower2 {
+  height: 100px;
+}
+section#summary .red-strike {
+  color: black;
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+section#summary .arrow {
+  width: 50px;
+  height: 50px;
+  border-collapse: collapse;
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+}
+section#summary .arrow th {
+  padding: 0;
+}
+section#summary .arrow::before {
+  content: "→";
+}
+section#summary .kakaotalk {
+  border-collapse: collapse;
+}
+section#summary .kakaotalk th {
+  padding: 0;
+}/*# sourceMappingURL=2.css.map */

@@ -1,0 +1,233 @@
+section#carservice {
+
+  .image-with-text {
+    display: flex;
+    align-items: center;
+    width: 275px;
+    height: 137px;
+    border-radius: 20px;
+    background: rgba(201, 0, 0, 0.6);
+    margin-left: -30px;
+    z-index: 1;
+  }
+
+  .smallmain {
+    font-family: Elice DX Neolli;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 35.2px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .worry {
+    font-family: Elice DX Neolli;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 52.8px;
+    text-align: center;
+  }
+
+  .de {
+    font-family: Elice DX Neolli;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 52.8px;
+    text-align: center;
+
+  }
+
+  .middle {
+    font-family: Elice DX Neolli;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 39.6px;
+    text-align: center;
+    margin-top: 100px;
+
+  }
+
+  .info {
+    font-family: Elice DX Neolli;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26.4px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+  .bigpig {
+    border-radius: 20px;
+    box-shadow: 12px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+  }
+
+  .image-with-text p {
+    margin: 0;
+    font-size: 20px;
+    color: aliceblue
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: -40px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .clock {
+    width: 59.06px;
+    height: 59.06px;
+    top: 5.47px;
+    left: 5.47px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 15px;
+    margin-top: 20px;
+
+  }
+
+  .gps {
+    width: 40.83px;
+    height: 58.33px;
+    top: 5.83px;
+    left: 14.58px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 15px;
+    margin-top: 20px;
+
+  }
+
+  .money {
+    width: 29.17px;
+    height: 52.5px;
+    top: 8.75px;
+    left: 20.42px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 15px;
+    margin-top: 20px;
+
+  }
+
+  body {
+    color: white;
+    background-image: url("/assets/background.png"), linear-gradient(180deg, rgba(34, 87, 122, 0.95) 0%, rgba(0, 0, 0, 0.95) 60.5%, rgba(0, 0, 0, 0.855) 86.5%, rgba(34, 87, 122, 0.57) 100%);
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-size: 576px;
+    background-position: center;
+
+  }
+
+  .one {
+    font-family: Elice DX Neolli;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 35.2px;
+    text-align: center;
+    vertical-align: middle;
+
+  }
+
+  .onebold {
+    font-family: Elice DX Neolli;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35.2px;
+    text-align: center;
+    vertical-align: middle;
+
+  }
+
+  .textline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .crown {
+    width: 64.75px;
+    height: 51.66px;
+    top: 10.03px;
+    left: 2.73px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+
+  .normalcrown {
+    font-family: Elice DX Neolli OTF;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 35.2px;
+    text-align: center;
+    background-image: linear-gradient(180deg, #A07013 58.78%, #F9EB99 79.6%, #946E18 100%);
+    background-clip: text;
+    color: transparent;
+
+  }
+
+  .boldcrown {
+    font-family: Elice DX Neolli OTF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35.2px;
+    text-align: center;
+    background-image: linear-gradient(180deg, #A07013 58.78%, #F9EB99 79.6%, #946E18 100%);
+    background-clip: text;
+    color: transparent;
+  }
+
+  .handshake {
+    width: 200px;
+    height: 133.44px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 50px;
+
+  }
+
+  .jungri {
+    font-family: Pretendard;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 50px;
+
+  }
+
+  .background-container {
+    position: relative;
+    background-image: url("/assets/lower.png");
+    background-size: cover;
+    background-position: center;
+    width: 576px;
+    height: 200px;
+    top: -180px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+  }
+
+}

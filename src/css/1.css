@@ -1,0 +1,208 @@
+@charset "UTF-8";
+section#title .title {
+  width: 576px;
+  height: 1, 24px;
+  padding: 132px 0px 32px 0px;
+  gap: 0px;
+  justify: space-between;
+  opacity: 0px;
+}
+section#title .container {
+  position: relative;
+  height: 550px;
+  width: 1024px;
+}
+section#title .upper-image {
+  position: relative;
+  z-index: 1;
+  top: -180px;
+  left: 0;
+}
+section#title .lower-image {
+  position: absolute;
+  z-index: 0;
+  bottom: -270px;
+  left: 0;
+}
+section#title .gradient-overlay {
+  position: absolute;
+  z-index: 1;
+  top: -180px;
+  left: 0;
+  height: 550px;
+  width: 576px;
+  background: linear-gradient(to bottom, rgba(166, 212, 227, 0) 3%, rgba(166, 212, 227, 0.2) 25.5%, #48A8D1 48.5%, rgba(166, 212, 227, 0) 99.8%);
+}
+section#title .water-image {
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  left: 0;
+  width: 576px;
+  height: 365.7px;
+  gap: 0;
+  opacity: 0.3;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}
+section#title .water-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section#title .text-overlay {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "PyeongChang Peace", sans-serif;
+  font-size: 64px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 64px;
+  width: 576px;
+}
+section#title .text-overlay1 {
+  position: absolute;
+  z-index: 3;
+  top: 420px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Pretendard;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  width: 576px;
+}
+section#title .main-image {
+  position: absolute;
+  z-index: 2;
+  top: 320px;
+  left: 285px;
+  transform: translate(-50%, 0);
+}
+section#title .rounded-box {
+  width: 480px;
+  height: 62px;
+  gap: 10px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: rgba(22, 138, 173, 0.9490196078);
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#title .rounded-box1 {
+  width: 460px;
+  height: 258px;
+  padding: 8px 10px 8px 10px;
+  gap: 12px;
+  background-color: white;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 500px;
+}
+section#title .rounded-box2 {
+  width: 432px;
+  height: 32px;
+  padding: 0px 24px 8px 24px;
+  gap: 10px;
+  border-radius: 0px 0px 20px 20px;
+  background-color: white;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#title .boxtitle {
+  font-family: Elice DX Neolli;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35.2px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: white;
+}
+section#title .boxlower {
+  font-family: Pretendard;
+  font-size: 2px;
+  font-weight: 600;
+  line-height: 12px;
+  text-align: left;
+  background: #283618;
+}
+section#title .image-container {
+  position: relative;
+  width: 95px;
+  height: 115px;
+  margin-top: -130px;
+}
+section#title .image-container1 {
+  position: relative;
+  width: 95px;
+  height: 115px;
+  margin-top: -130px;
+}
+section#title .image-container2 {
+  position: relative;
+  width: 95px;
+  height: 115px;
+  margin-top: -130px;
+}
+section#title .image-container3 {
+  position: relative;
+  width: 95px;
+  height: 115px;
+  margin-top: -130px;
+}
+section#title .table {
+  border-collapse: collapse;
+  border: none;
+  text-align: center;
+}
+section#title .logo-image {
+  text-align: center;
+  margin-top: 20px;
+}
+section#title .logo-image img {
+  width: 100px;
+  height: auto;
+}
+section#title .logo-image {
+  text-align: center;
+  margin-top: 20px;
+}
+section#title .logo-image img {
+  width: 100px;
+  height: auto;
+}
+section#title .image-overlay {
+  position: absolute;
+  /* 절대 위치 */
+  top: 170px;
+  /* 위에서 10px */
+  left: 235px;
+  /* 왼쪽에서 10px */
+  z-index: 3;
+  /* 우선순위 설정 */
+}
+section#title .image-overlay img {
+  width: 100px;
+  /* 이미지 너비 */
+  height: auto;
+  /* 높이 자동 조정 */
+}
+section#title #photo {
+  font-family: Pretendard;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15.6px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}/*# sourceMappingURL=1.css.map */

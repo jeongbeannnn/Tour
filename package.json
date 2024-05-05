@@ -2,12 +2,14 @@
   "name": "tour",
   "module": "index.ts",
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "drizzle-kit": "^0.20.17"
   },
   "scripts": {
     "start": "bun src/index.ts",
     "dev": "bun --hot src/index.ts",
-    "build": "bun build src/index.ts"
+    "build": "bunx drizzle-kit generate:sqlite --schema ./schema.ts && bun build src/index.ts",
+    "generate": "bun generate src/index.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
@@ -15,6 +17,10 @@
   "type": "module",
   "dependencies": {
     "@types/bun": "^1.1.1",
+    "drizzle-orm": "^0.30.10",
     "fs": "^0.0.1-security"
-  }
+  },
+  "trustedDependencies": [
+    "es5-ext"
+  ]
 }
