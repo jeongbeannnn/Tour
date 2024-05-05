@@ -1,0 +1,45 @@
+@forward '1';
+@forward '2';
+@forward '3';
+@forward '4';
+@forward '5';
+@forward '6';
+@forward '7';
+@forward '8';
+@forward '9';
+@forward '10';
+@forward '11';
+@forward 'Elice DX Neolli';
+@forward 'normalize';
+
+:root {
+  --bg-color: #f0f3f4;
+  --font-color: #22577a;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+
+@font-face {
+  font-family: 'PyeongChang Peace';
+  src: url('/assets/fonts/PyeongChangPeace-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PyeongChang Peace';
+  src: url('/assets/fonts/PyeongChangPeace-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+section {
+  position: relative;
+  width: 576px;
+  margin: auto;
+}
+
+body {
+  background-color: var(--bg-color);
+}

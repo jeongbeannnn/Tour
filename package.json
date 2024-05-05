@@ -8,8 +8,7 @@
   "scripts": {
     "start": "bun src/index.ts",
     "dev": "bun --hot src/index.ts",
-    "build": "bunx drizzle-kit generate:sqlite --schema ./schema.ts && bun build src/index.ts",
-    "generate": "bun generate src/index.ts"
+    "build": "bunx drizzle-kit generate:sqlite --schema src/db/schema.ts && bun build --compile src/index.ts --outfile coconut_travel"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
@@ -21,6 +20,7 @@
     "fs": "^0.0.1-security"
   },
   "trustedDependencies": [
-    "es5-ext"
+    "es5-ext",
+    "esbuild"
   ]
 }
