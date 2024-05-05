@@ -1,4 +1,6 @@
 section#title {
+  padding-bottom: 235px;
+
   .title {
     width: 576px;
     height: 1, 024px;
@@ -11,7 +13,6 @@ section#title {
   .container {
     position: relative;
     height: 550px;
-    width: 1024px;
   }
 
   .upper-image {
@@ -74,6 +75,10 @@ section#title {
     text-align: center;
     line-height: 64px;
     width: 576px;
+
+    strong {
+      font-weight: 700;
+    }
   }
 
   .text-overlay1 {
