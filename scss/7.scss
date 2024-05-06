@@ -1,0 +1,40 @@
+section#benefit {
+  .friendbenefit {
+    width: 576px;
+    height: 199px;
+    padding: 36px 24px 36px 24px;
+    gap: 24px;
+    opacity: 0px;
+  }
+
+  .text {
+    font-family: Elice DX Neolli;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26.4px;
+    text-align: center;
+  }
+
+  .benefit {
+    width: 576px;
+    height: 199px;
+    gap: 12px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #photo {
+    align-items: center;
+  }
+
+  #text {
+    font-family: Elice DX Neolli;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16.5px;
+    text-align: center;
+    padding-right: 26px;
+  }
+}
