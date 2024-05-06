@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1714930795378,
+      "tag": "0000_flaky_nextwave",
+      "breakpoints": true
+    }
+  ]
+}

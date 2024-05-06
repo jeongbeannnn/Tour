@@ -1,5 +1,4 @@
 import { db } from "@/db";
-import index from "@/index.html";
 import style from "@/css/index.min.css";
 
 const html = async () => `
@@ -15,10 +14,10 @@ const html = async () => `
     <style>${await Bun.file(style).text()}</style>
   </head>
   <body>
-    ${await Bun.file(index).text()}
+    ${await Bun.file('./src/index.html').text()}
     <script>
       $(()=>{
-        $('section *').dblclick(function(){
+        $('section *').dblclick(funjs jksction(){
           console.log(123)
           $(this).attr('contenteditable', true).focus().one('blur', function(){
             $(this).attr('contenteditable', false);
